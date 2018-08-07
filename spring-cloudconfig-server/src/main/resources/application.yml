@@ -2,8 +2,8 @@ spring:
   profiles:
     active:
     # - native
-     - development
-    # - remote_repo
+    # - development
+     - remote_repo
  
 ---
 spring:
@@ -40,8 +40,8 @@ spring:
         git:
           uri: https://github.com/sureshpec04/cloud-config-repo
           skip-ssl-validation: true
-          #username: sureshpec04
-          #password: Kalpana206
+          #username: githubusername
+          #password: repopassword
 
 ---
 
